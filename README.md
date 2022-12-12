@@ -17,6 +17,7 @@
     git commit -m "Hello, World!"
 
 ### Отправка изменений в удаленный репозиторий
+    git remote add origin git@github.com:Fenestr0n/Examples.git
     git push -u origin master
 
 # .Net
@@ -35,3 +36,6 @@
 
 ### Считать строку из терминала
     Console.ReadLine();
+
+### Сгенерировать случайное число в диапазоне [min, max)
+    new Random().Next(min, max);
