@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,csharp
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,visualstudiocode,csharp
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,csharp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -399,19 +399,38 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-### Linux ###
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+# Icon must end with two \r
+Icon
 
-# KDE directory preferences
-.directory
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+# Thumbnails
+._*
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
 ### VisualStudioCode ###
 !.vscode/*.code-snippets
@@ -426,4 +445,4 @@ FodyWeavers.xsd
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,csharp
+# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,csharp
